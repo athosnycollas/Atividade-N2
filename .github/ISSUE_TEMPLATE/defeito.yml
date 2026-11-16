@@ -1,0 +1,24 @@
+name: Defeito
+description: Relate um erro encontrado na API
+title: 'fix: '
+labels: ['defeito']
+body:
+  - type: input
+    id: versao
+    attributes:
+      label: Versão / ambiente
+      description: 'Informe o ambiente afetado (ex: staging, producao)'
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Passos para reproduzir
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Resultado esperado x obtido
+    validations:
+      required: true
