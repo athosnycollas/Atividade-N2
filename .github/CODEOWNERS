@@ -1,0 +1,10 @@
+# Revisores automáticos por área (PGC 2 e 5.2).
+#
+# Par de revisão permanente: @TruckControl (ou colega de disciplina)
+# Desenvolvedor Líder: @athosnycollas
+# Vale a ÚLTIMA linha que casar com o arquivo.
+
+*                    @athosnycollas
+/.github/            @athosnycollas
+**/package.json      @athosnycollas
+/docs/               @athosnycollas
