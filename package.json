@@ -1,0 +1,25 @@
+{
+  "name": "doe-alimentos-api",
+  "version": "1.0.0",
+  "description": "API REST para gestao e distribuicao de doacoes de alimentos e cestas basicas",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "ong",
+    "alimentos",
+    "doacoes",
+    "solidariedade",
+    "api",
+    "devops",
+    "gcs"
+  ],
+  "author": "athosnycollas",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
